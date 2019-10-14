@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.text{
+    text-align: center;
+}
+
+.one{
+    width: 31%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.one img{
+    filter: grayscale(100%);
+    transition: all 0.3s;
+
+}
+
+.one:hover img{
+    transform:scale(1.2);
+    filter: grayscale(0%);
+}
+
+.overlay{
+    position: absolute;
+left: 0%;
+right: 0%;
+bottom: -40px;
+text-align: center;
+}
+
+.one:hover .overlay{
+    bottom: 0px;
+
+}
+
+.a img{
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+
+.a:hover img{
+filter: grayscale(50%);
+}
+
+.a{
+    position: relative;
+    padding-top: 15px;
+}
+
+.over{
+    position: absolute;
+ bottom: 10%;
+color: white;
+}
+
+.ove{
+position: absolute;
+}

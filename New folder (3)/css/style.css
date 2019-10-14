@@ -1,0 +1,39 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+li {
+  list-style: none;
+}
+
+#pass .imag {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(http://gentium.pixerex.com/html/demo/assets/images/about_01.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(http://gentium.pixerex.com/html/demo/assets/images/about_01.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 20px;
+  color: white;
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+  cursor: pointer;
+  -webkit-transition: -webkit-filter .3s ease-in-out;
+  transition: -webkit-filter .3s ease-in-out;
+  transition: filter .3s ease-in-out;
+  transition: filter .3s ease-in-out, -webkit-filter .3s ease-in-out;
+}
+
+#pass .imag.one {
+  padding-top: 400px;
+}
+
+#pass .imag.two {
+  padding-top: 135px;
+}
+
+#pass .imag:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+/*# sourceMappingURL=style.css.map */
